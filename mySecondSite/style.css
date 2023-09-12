@@ -1,0 +1,418 @@
+.watchNow {
+  background-color: black;
+  height: 40px;
+  padding: 5px;
+  border-color: blueviolet;
+}
+.watchNow p {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+.watchNow p:hover {
+  color: rgb(23, 216, 233);
+}
+
+.watchNow:hover {
+  background-color: rgb(42, 39, 39);
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 100px;
+  text-align: center;
+}
+#logo img {
+  width: auto;
+  height: auto;
+}
+.nabar ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  list-style: none;
+}
+.nabar ul a {
+  text-decoration: none;
+  color: black;
+}
+#login {
+  margin-top: 10px;
+}
+#loginbtn {
+  height: 40px;
+  width: 100px;
+  border: none;
+  background-color: inherit;
+}
+#contactsalesbtn {
+  height: 40px;
+  width: 90px;
+  background-color: white;
+  border-radius: 5px;
+}
+#contactsalesbtn:hover {
+  background-color: #d6b8b8;
+}
+#getstartedbtn {
+  height: 40px;
+  width: 90px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+#getstartedbtn:hover {
+  color: #71b6c0;
+}
+
+.Competitive h1 {
+  text-align: center;
+  font-size: 100px;
+}
+.Competitive p {
+  font-size: 25px;
+  text-align: center;
+}
+.twobuttons {
+  text-align: center;
+  padding: 15px;
+}
+
+#startbuilding {
+  background-color: black;
+  border-color: blueviolet;
+  height: 50px;
+  border-radius: 10px;
+}
+#startbuilding a {
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+}
+#startbuilding:hover {
+  border-color: rgb(23, 216, 233);
+}
+#startbuilding a:hover {
+  color: rgb(23, 216, 233);
+}
+
+#contactsales {
+  border-color: pink;
+  height: 50px;
+  border-radius: 10px;
+}
+#contactsales a {
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+}
+#contactsales:hover {
+  border-color: rgb(180, 72, 139);
+}
+.CMS {
+  text-align: center;
+  font-size: 20px;
+}
+.CMS h1 {
+  text-align: center;
+  font-size: 60px;
+}
+.flexible_container {
+  background-color: black;
+  color: white;
+}
+.flexible_container h1 {
+  text-align: center;
+  font-size: 50px;
+}
+#SanityStudio p {
+  font-size: 20px;
+  padding-left: 100px;
+  line-height: 30px;
+}
+#SanityStudio ul {
+  padding-left: 100px;
+}
+.flexible {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 10px 50px 10px 50px;
+}
+#SanityStudio ul li {
+  font-size: 20px;
+  list-style: none;
+}
+#SanityImage img {
+  width: 500px;
+  height: 400px;
+}
+#SanityStudio ul li img {
+  width: 20px;
+  height: 20px;
+  padding-right: 10px;
+}
+#SanityStudio button {
+  background-color: black;
+  color: white;
+  border-color: rgb(141, 141, 150);
+  margin: 40px;
+  height: 50px;
+  width: 250px;
+  font-size: 18px;
+  margin-left: 100px;
+  border-radius: 5px;
+}
+#SanityStudio button:hover {
+  background-color: rgb(48, 46, 46);
+}
+h3 {
+  color: aliceblue;
+}
+.Composable_wrapper {
+  background-color: black;
+  color: white;
+}
+.Composable_wrapper h1 {
+  text-align: center;
+  font-size: 50px;
+}
+.Composable {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  padding: 30px;
+}
+#Composable_inner {
+  background-color: rgb(27, 26, 26);
+  padding: 20px;
+  font-size: 20px;
+}
+#Composable_inner h4 {
+  font-size: 30px;
+}
+#Composable_inner:hover {
+  background-color: rgb(19, 19, 21);
+}
+.powers_wrapper {
+  background-color: #f2f3f5;
+}
+.powers_wrapper h1 {
+  font-size: 40px;
+  padding-left: 100px;
+  color: black;
+  text-align: left;
+}
+.powers {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  padding: 40px;
+  padding-right: 150px;
+}
+#zapiImage {
+  width: 700px;
+  height: 400px;
+}
+#powerText p {
+  font-size: 20px;
+  color: black;
+  text-align: left;
+}
+#powerText p img {
+  width: 20px;
+  height: 20px;
+  padding-right: 10px;
+}
+
+#LearnMorebtn {
+  margin-right: 20px;
+  background-color: #5ae3f6;
+  border-style: none;
+  height: 50px;
+  width: 150px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+#Demobtn {
+  margin-right: 20px;
+  background-color: white;
+  height: 50px;
+  width: 200px;
+  font-size: 20px;
+  border-color: #e2f4fd;
+  border-radius: 10px;
+}
+#LearnMorebtn:hover {
+  background-color: #aceaf2;
+}
+#Demobtn:hover {
+  background-color: #e2f4fd;
+}
+.maker {
+  background-color: black;
+  text-align: center;
+}
+.maker h1 {
+  font-size: 50px;
+}
+.maker p {
+  font-size: 20px;
+}
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.footer ul {
+  list-style: none;
+  line-height: 30px;
+}
+.footer ul a {
+  text-decoration: none;
+  color: black;
+}
+@media screen and (max-width: 900px) {
+  .watchNow {
+    height: auto;
+    width: auto;
+    padding: 3px;
+  }
+  .watchNow p {
+    font-size: 13px;
+  }
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px;
+  }
+  #logo img {
+    width: 100px;
+    height: 30px;
+  }
+  .nabar {
+    display: none;
+  }
+  #login {
+    margin-top: 10px;
+  }
+  #loginbtn {
+    height: 40px;
+    width: 100px;
+    display: none;
+  }
+  #contactsalesbtn {
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    display: none;
+  }
+  #getstartedbtn {
+    height: 40px;
+    width: 90px;
+    border-radius: 5px;
+  }
+  .Competitive h1 {
+    font-size: 40px;
+    text-align: left;
+  }
+  .Competitive p {
+    font-size: 20px;
+    text-align: left;
+  }
+  #startbuilding {
+    height: 50px;
+    border-radius: 5px;
+    border-color: black;
+    width: 300px;
+    margin-bottom: 10px;
+  }
+  #contactsales {
+    height: 50px;
+    border-radius: 5px;
+    width: 300px;
+  }
+  .CMS {
+    text-align: center;
+    font-size: 18px;
+  }
+  .CMS h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: "Inter", sans-serif;
+  }
+  .flexible_container h1 {
+    text-align: center;
+    font-size: 29px;
+  }
+  #SanityStudio p {
+    font-size: 15px;
+    padding-left: 20px;
+    line-height: 30px;
+  }
+  #SanityStudio ul {
+    padding-left: 20px;
+  }
+  .flexible {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 0px 0px;
+  }
+  #SanityStudio ul li {
+    font-size: 15px;
+  }
+  #SanityImage img {
+    width: 300px;
+    height: 300px;
+  }
+  #SanityStudio button {
+    margin: 20px;
+    height: 50px;
+    width: 250px;
+    font-size: 18px;
+    margin-right: 20px;
+  }
+  .Composable {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 25px;
+  }
+  .powers_wrapper h1 {
+    font-size: 30px;
+    padding-left: 10px;
+    text-align: left;
+  }
+  .powers {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 50px;
+    padding: 20px;
+    padding-right: 20px;
+  }
+  #zapiImage {
+    width: 300px;
+    height: 300px;
+  }
+  #powerText p {
+    font-size: 20px;
+  }
+  #powerText p img {
+    width: 20px;
+    height: 20px;
+    padding-right: 5px;
+  }
+  #LearnMorebtn {
+    margin-right: 10px;
+
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+  }
+  #Demobtn {
+    margin-right: 10px;
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+  }
+}
